@@ -81,12 +81,12 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies }) => (
           'px-4 md:p-8 md:shadow-xl'
         )}
       >
-        <Achievements achievements={achievements} />
+        {/* <Achievements achievements={achievements} /> */}
         <div className="prose prose-invert grow text-center">
           <ContentRenderer source={cta} />
         </div>
       </div>
-      <div className="mt-6 mt-12 hidden w-3/4 px-2 pr-12 md:block">
+      <div className="mt-6 hidden w-3/4 px-2 pr-12 md:block">
         <Companies {...companies} />
       </div>
     </div>

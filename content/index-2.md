@@ -2,7 +2,7 @@
 layout: Home-2
 seo:
   title: Web Developer
-  description: Custom description for this page goes here
+  description: Développeur Web Front-End
 ---
 
 
