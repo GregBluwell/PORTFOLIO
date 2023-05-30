@@ -23,7 +23,7 @@ export const menu = [
   // },
   {
     name: 'Accueil',
-    slug: '/index-2',
+    slug: '/',
     Icon: TfiHome,
     number: null,
   },
@@ -73,7 +73,7 @@ export const menu = [
 export const social = [
   {
     name: 'Github',
-    url: 'https://www.instagram.com/',
+    url: 'https://github.com/GregBluwell',
     Icon: IoLogoGithub,
   },
   {

@@ -49,10 +49,10 @@ if (travailler_avec_moi) navigate('/contact')
 ---cta
 ---
 <Button href="/contact" size="sm">
-  Download Resume
+  Télécharger CV
 </Button>
 
-[Get in Touch](/contact)
+[Me Contacter](/contact)
 
 
 

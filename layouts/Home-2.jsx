@@ -4,7 +4,7 @@ import ContentRenderer from '@/components/ContentRenderer'
 import Image from '@/components/Image'
 import Sep from '@/components/Sep'
 import Reveal from '@/components/Reveal'
-import Companies from '@/components/Companies'
+// import Companies from '@/components/Companies'
 
 const HeroPhoto = ({ main }) => (
   <>
