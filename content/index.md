@@ -1,53 +1,63 @@
 ---
-layout: Home
+layout: Home-2
 seo:
   title: Web Developer
-  description: Custom description for this page goes here
+  description: Développeur Web Front-End
 ---
+
+
 
 ---main
 images:
-  - src: /hero.jpg
+  - src: /hero-2.png
     alt: my photo
   - src: /hero-mobile.jpg
     alt: my photo
 ---
 
-# <Typewriter>Carl Hanson</Typewriter>
+# <Typewriter>Greg Fouetillou</Typewriter>
 
-# *Web Developer* <span>&</span> *Growth Consultant*
+# *Développeur Web Front-End* 
 
-<Sep size={12} />
+Les Interfaces Utilisateurs c'est comme les blagues.
+Si on est obligé de les expliquer, c'est qu'elles ne pas sont pas trés bonnes...
 
-Sometimes five Imprimaturs are seen together dialogue-wise in the
-piazza of one title-page, complimenting and ducking each to other with
-their shaven reverences, whether the author, who stands by in
-perplexity at the foot of his epistle, shall to the press or to the
-sponge.
+```js {2-4} showLineNumbers
+const savoirFaire = [
+  'Integration Web'
+  'Responsive Web Design'
+  'Developpement Front-end'
+]
+if (travailler_avec_moi) navigate('/contact')
+```
 
 
 
 ---achievements
 - number: 6+
   text: Years of experience
-- number: 60+
+- number: 70+
   text: Projects Completed
-- number: 5
+- number: 12
   text: OpenSource Libraries
+- number: 50+
+  text: Clients World Wide
 ---
 
 
 
 ---cta
 ---
-<Button href="/contact" size="lg">
-  Download Resume
+<Button href="/contact" size="sm">
+  Télécharger CV
 </Button>
+
+[Me Contacter](/contact)
 
 
 
 ---companies
-title: Trusted By
+title:
 list:
   - name: Company 1
     icon:
