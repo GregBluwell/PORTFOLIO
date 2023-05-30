@@ -15,22 +15,20 @@ images:
     alt: my photo
 ---
 
-# <Typewriter>Carl Hanson</Typewriter>
+# <Typewriter>Greg Fouetillou</Typewriter>
 
-# *Web Developer* <span>&</span> *Growth Consultant*
+# *Développeur Web Front-End* 
 
-Sometimes five Imprimaturs are seen together dialogue-wise in the
-piazza of one title-page, complimenting and ducking each to other with
-their shaven reverences, whether the author, who stands by in
-perplexity at the foot of his epistle.
+Les Interfaces Utilisateurs c'est comme les blagues.
+Si on est obligé de les expliquer, c'est qu'elles ne pas sont pas trés bonnes...
 
 ```js {2-4} showLineNumbers
-const services = [
-  'UI/UX Design'
-  'Web Development'
-  'Mobile App Development'
+const savoirFaire = [
+  'Integration Web'
+  'Responsive Web Design'
+  'Developpement Front-end'
 ]
-if (have_a_project) navigate('/contact')
+if (travailler_avec_moi) navigate('/contact')
 ```
 
 
