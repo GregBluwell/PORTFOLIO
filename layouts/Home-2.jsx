@@ -82,20 +82,27 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies }) => (
         )}
       >
         {/* <Achievements achievements={achievements} /> */}
-        <div className="skills-container flex justify-between items-center border-2 border-white prose prose-invert grow text-center">
-          <div className='cta-container border border-blue-300'>
-          XXXXXXX
+        <div className="skills-container prose prose-invert flex grow items-center justify-evenly border-2 border-white text-center">
+          <div className="technos-container flex flex-wrap justify-center items-center gap-2 border-2 border-blue-300">
+            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
+            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
+            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
+            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
+            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
+            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
+            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
+            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
+            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
+            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
           </div>
-          <div className='cta-container border border-blue-300'>
-          <ContentRenderer source={cta} />
+          <div className="cta-container border border-blue-300">
+            <ContentRenderer source={cta} />
           </div>
         </div>
       </div>
-      <div className="home-footer_container border border-white mt-12 hidden w-3/4 px-2 pr-12 md:block">
+      <div className="home-footer_container mt-12 hidden w-3/4 border border-white px-2 pr-12 md:block">
         {/* <Companies {...companies} /> */}
-        <div className='home-footer text-xs text-white'>
-          Ceci est un petit fouteur de l'accueil
-        </div>
+        <div className="home-footer text-xs text-white">Ceci est un petit fouteur de l'accueil</div>
       </div>
     </div>
   </div>
