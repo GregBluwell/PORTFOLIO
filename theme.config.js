@@ -6,7 +6,7 @@
  * Icons from react-icons: https://react-icons.github.io/react-icons
  */
 
-import { IoFolderOpenOutline, IoLogoTwitter, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
+import { IoFolderOpenOutline, IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5'
 import { TfiHome  } from 'react-icons/tfi'
 import { SlUser, SlEnvolope } from 'react-icons/sl'
 
@@ -22,7 +22,7 @@ export const menu = [
   //   number: 1,
   // },
   {
-    name: 'Home (2)',
+    name: 'Accueil',
     slug: '/index-2',
     Icon: TfiHome,
     number: null,
@@ -72,18 +72,13 @@ export const menu = [
 
 export const social = [
   {
-    name: 'Twitter',
-    url: 'https://www.twitter.com/',
-    Icon: IoLogoTwitter,
-  },
-  {
-    name: 'Instagram',
+    name: 'Github',
     url: 'https://www.instagram.com/',
-    Icon: IoLogoInstagram,
+    Icon: IoLogoGithub,
   },
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/',
+    url: 'https://www.linkedin.com/in/greg-fouetillou-a2047a266/',
     Icon: IoLogoLinkedin,
   },
 ]
@@ -139,9 +134,9 @@ export const siteMetaData = {
   description: 'A short description goes here.',
   email: 'greg.bluwell@proton.me',
   locale: 'en_US',
-  twitter: {
-    handle: '@handle',
-    site: '@site',
-    cardType: 'summary_large_image',
-  },
+  // twitter: {
+  //   handle: '@handle',
+  //   site: '@site',
+  //   cardType: 'summary_large_image',
+  // },
 }
