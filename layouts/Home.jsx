@@ -63,7 +63,9 @@ const HeroAbout = ({ main }) => (
 //   </div>
 // )
 
-const Layout = ({ main = {}, cta = {}, achievements = [], companies }) => (
+//, achievements = [], companies 
+
+const Layout = ({ main = {}, cta = {}}) => (
   <div className="mx-auto my-auto py-4 md:p-10 lg:p-20">
     <div className="absolute right-0 top-0 box-content hidden h-full w-1/4 bg-gradient-to-br from-alpha-100 via-alpha to-beta pl-5 md:block" />
     <div className="items-end text-center md:flex md:text-left">

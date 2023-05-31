@@ -7,7 +7,7 @@
  */
 
 import { IoFolderOpenOutline, IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5'
-import { TfiHome  } from 'react-icons/tfi'
+import { TfiHome } from 'react-icons/tfi'
 import { SlUser, SlEnvolope } from 'react-icons/sl'
 
 /**

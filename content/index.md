@@ -1,8 +1,8 @@
 ---
-layout: Home-2
+layout: Home
 seo:
   title: Web Developer
-  description: Développeur Web Front-End
+  description: Front-end developer with 6+ years of experience in building responsive websites and web applications.
 ---
 
 
