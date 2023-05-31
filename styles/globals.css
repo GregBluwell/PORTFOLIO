@@ -65,7 +65,20 @@
 .animate-typewriter {
   padding: 0.25rem;
   /* border: solid 1px white; */
+
 }
+
+/*CTA-SECTION*/
+
+.cta-container  {
+}
+
+.cta-container a:first-child {
+  @apply mt-6;
+}
+
+ 
+
 
 /* A PROPOS */
 

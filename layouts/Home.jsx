@@ -5,6 +5,7 @@ import Image from '@/components/Image'
 import Sep from '@/components/Sep'
 import Reveal from '@/components/Reveal'
 // import Companies from '@/components/Companies'
+import { IoLogoReact } from 'react-icons/io5'
 
 const HeroPhoto = ({ main }) => (
   <>
@@ -47,20 +48,20 @@ const HeroAbout = ({ main }) => (
   </Reveal>
 )
 
-const Achievements = ({ achievements }) => (
-  <div
-    className={classNames(
-      'prose prose-invert hidden grow grid-cols-2 gap-2 sm:grid md:gap-6 md:pr-6'
-    )}
-  >
-    {achievements?.map((item, i) => (
-      <div key={i} className="flex flex-col items-center justify-center md:flex-row">
-        <h2 className="m-0 text-white md:pr-4">{item.number}</h2>
-        <div className="dark:text-accent-400">{item.text}</div>
-      </div>
-    ))}
-  </div>
-)
+// const Achievements = ({ achievements }) => (
+//   <div
+//     className={classNames(
+//       'prose prose-invert hidden grow grid-cols-2 gap-2 sm:grid md:gap-6 md:pr-6'
+//     )}
+//   >
+//     {achievements?.map((item, i) => (
+//       <div key={i} className="flex flex-col items-center justify-center md:flex-row">
+//         <h2 className="m-0 text-white md:pr-4">{item.number}</h2>
+//         <div className="dark:text-accent-400">{item.text}</div>
+//       </div>
+//     ))}
+//   </div>
+// )
 
 const Layout = ({ main = {}, cta = {}, achievements = [], companies }) => (
   <div className="mx-auto my-auto py-4 md:p-10 lg:p-20">
@@ -83,19 +84,15 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies }) => (
       >
         {/* <Achievements achievements={achievements} /> */}
         <div className="skills-container prose prose-invert flex grow items-center justify-evenly border-2 border-white text-center">
-          <div className="technos-container flex flex-wrap justify-center items-center gap-2 border-2 border-blue-300">
-            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
-            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
-            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
-            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
-            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
-            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
-            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
-            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
-            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
-            <div className="tech flex h-16 w-16 items-center justify-center border border-white">Logo</div>
+          <div className="technos-container flex flex-wrap justify-center items-center gap-3 p-1 bg-blue-300">
+            <div className="tech flex items-center justify-center border border-white text-white"><IoLogoReact className= "w-20 h-20"/></div>
+            <div className="tech flex items-center justify-center border border-white text-white"><IoLogoReact className= "w-20 h-20"/></div>
+            <div className="tech flex items-center justify-center border border-white text-white"><IoLogoReact className= "w-20 h-20"/></div>
+            <div className="tech flex items-center justify-center border border-white text-white"><IoLogoReact className= "w-20 h-20"/></div>
+            <div className="tech flex items-center justify-center border border-white text-white"><IoLogoReact className= "w-20 h-20"/></div>
+            <div className="tech flex items-center justify-center border border-white text-white"><IoLogoReact className= "w-20 h-20"/></div>
           </div>
-          <div className="cta-container border border-blue-300">
+          <div className="cta-container flex flex-col justify-center items-center bg-red-700">
             <ContentRenderer source={cta} />
           </div>
         </div>

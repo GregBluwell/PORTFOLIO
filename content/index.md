@@ -28,7 +28,7 @@ const savoirFaire = [
   'Responsive Web Design'
   'Developpement Front-end'
 ]
-if(?travailler_avec_moi) navigate('/contact')
+if(travailler_ensemble) navigate('/contact')
 ```
 
 
