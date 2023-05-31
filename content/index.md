@@ -31,18 +31,19 @@ const savoirFaire = [
 if(travailler_ensemble) navigate('/contact')
 ```
 
-
-
 ---achievements
-- number: 6+
-  text: Years of experience
-- number: 70+
-  text: Projects Completed
-- number: 12
-  text: OpenSource Libraries
-- number: 50+
-  text: Clients World Wide
+- number:
+  text: 
+- number: 
+  text:
+- number: 
+  text: 
+- number: 
+  text: 
 ---
+
+CACA
+
 
 
 
@@ -57,18 +58,4 @@ if(travailler_ensemble) navigate('/contact')
 
 
 ---companies
-title:
-list:
-  - name: Company 1
-    icon:
-      src: /icons/logo-1.svg
-  - name: Company 2
-    icon:
-      src: /icons/logo-3.svg
-  - name: Company 3
-    icon:
-      src: /icons/logo-3.svg
-  - name: Company 4
-    icon:
-      src: /icons/logo-4.svg
 ---

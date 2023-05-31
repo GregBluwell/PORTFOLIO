@@ -18,6 +18,7 @@ const HeroPhoto = ({ main }) => (
           alt={main.images[0].alt}
           animation="slide-in-top fade-in"
           priority
+
         />
       </div>
     )}
@@ -63,21 +64,20 @@ const HeroAbout = ({ main }) => (
 //   </div>
 // )
 
-//, achievements = [], companies 
-
-const Layout = ({ main = {}, cta = {}}) => (
+//, achievements = [], companies
+const Layout = ({ main = {}, cta = {} }) => (
   <div className="mx-auto my-auto py-4 md:p-10 lg:p-20">
     <div className="absolute right-0 top-0 box-content hidden h-full w-1/4 bg-gradient-to-br from-alpha-100 via-alpha to-beta pl-5 md:block" />
     <div className="items-end text-center md:flex md:text-left">
       <div className="relative shrink-0 basis-1/2 text-center md:order-2 md:-ml-20">
         <HeroPhoto main={main} />
       </div>
-      <div className="border-red-500 z-10 mt-6 basis-full md:mb-12 md:mt-0">
+      <div className="z-10 mt-6 basis-full md:mb-12 md:mt-0">
         <HeroAbout main={main} />
       </div>
     </div>
     <div className="relative z-10">
-      <Sep line className="hidden block" />
+      <Sep line className="block hidden" />
       <div
         className={classNames(
           'md:bg-gradient-omega-900 flex flex-wrap items-center justify-between',
@@ -86,15 +86,27 @@ const Layout = ({ main = {}, cta = {}}) => (
       >
         {/* <Achievements achievements={achievements} /> */}
         <div className="skills-container prose prose-invert flex grow items-center justify-evenly border-2 border-white text-center">
-          <div className="technos-container flex flex-wrap justify-center items-center gap-3 p-1 bg-blue-300">
-            <div className="tech flex items-center justify-center border border-white text-white"><IoLogoReact className= "w-20 h-20"/></div>
-            <div className="tech flex items-center justify-center border border-white text-white"><IoLogoReact className= "w-20 h-20"/></div>
-            <div className="tech flex items-center justify-center border border-white text-white"><IoLogoReact className= "w-20 h-20"/></div>
-            <div className="tech flex items-center justify-center border border-white text-white"><IoLogoReact className= "w-20 h-20"/></div>
-            <div className="tech flex items-center justify-center border border-white text-white"><IoLogoReact className= "w-20 h-20"/></div>
-            <div className="tech flex items-center justify-center border border-white text-white"><IoLogoReact className= "w-20 h-20"/></div>
+          <div className="technos-container flex flex-wrap items-center justify-center gap-3 bg-blue-300 p-1">
+            <div className="tech flex items-center justify-center border border-white text-white">
+              <IoLogoReact className="h-20 w-20" />
+            </div>
+            <div className="tech flex items-center justify-center border border-white text-white">
+              <IoLogoReact className="h-20 w-20" />
+            </div>
+            <div className="tech flex items-center justify-center border border-white text-white">
+              <IoLogoReact className="h-20 w-20" />
+            </div>
+            <div className="tech flex items-center justify-center border border-white text-white">
+              <IoLogoReact className="h-20 w-20" />
+            </div>
+            <div className="tech flex items-center justify-center border border-white text-white">
+              <IoLogoReact className="h-20 w-20" />
+            </div>
+            <div className="tech flex items-center justify-center border border-white text-white">
+              <IoLogoReact className="h-20 w-20" />
+            </div>
           </div>
-          <div className="cta-container flex flex-col justify-center items-center bg-red-700">
+          <div className="cta-container flex flex-col items-center justify-center bg-red-700">
             <ContentRenderer source={cta} />
           </div>
         </div>
