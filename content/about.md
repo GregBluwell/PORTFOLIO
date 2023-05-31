@@ -2,7 +2,7 @@
 layout: About
 seo:
   title: About Me
-  description: This is the about page describing the skills and experience of the developer.
+  description: This is the about page describing the skills and experience of the Developer.
 ---
 
 
@@ -13,34 +13,32 @@ images:
     alt: my image
 ---
 ##### <span>01.</span> A Propos
-Développeur Front-end à l'expérience signicative et à l'expertise grandissante, j'aime m'investir dans les projets à taille humaine qui me permettent de contribuer à la réalisation de solutions innovantes. Naturellement animé par l'esprit d'équipe et profondément passionné par mon métier, je cultive un fort intérêt pour ses évolutions et les enjeux qui y sont liés.
+Développeur Front-End à l'expérience signicative et à l'expertise grandissante, j'aime m'investir dans les projets à taille humaine qui me permettent de contribuer à la réalisation de solutions innovantes. Naturellement animé par l'esprit d'équipe et profondément passionné par mon métier, je cultive un fort intérêt pour ses évolutions et les enjeux qui y sont liés.
 
 ##### <span>02.</span> Savoir-Faire
-Développement Front-end de Sites et d'Applications Web • Intégration Web • UX/UI Design • Responsive Web Design • Réalisation de MOOC/Mini-Jeux 
+Développement Front-End de Sites et d'Applications Web • Réalisation de MOOC/Mini-Jeux • Responsive Web Design • UX/UI Design • Intégration Web 
 
-##### <span>03.</span> Centres d'Interêt
+##### <span>03.</span> Centres d'Intérêt
 100% "Nerd" et 100% "Sportif", je cultive cet équilibre indispensable depuis l'époque de mon premier "Texas Instruments TI-99/4A" et de mon premier Bicross (BMX ♥). 
 
 Passionné durant de nombreuses années par la composition musicale (MAO) et l'écriture, ce sont, aujourd'hui, les technologies Blockchain/Web3 qui stimulent ma curiosité et mon envie d'apprendre continuellement.
 
-J'ai grandi à Toulouse, j'ai vécu à New York,
-je parle donc courrament toulousain et anglais.
+J'ai grandi à Toulouse, j'ai vécu à New York, je parle donc courrament toulousain et anglais.
 
-- J'aime les grosses bagarres: Coder et Boxer.
-- J'aime les sauts vertigineux: L'IA et le Parachutisme.
-- J'aime les grands espaces: du DD 4To SSD et du Parc de Yellowstone.
+- J'aime les belles bagarres: Coder et Boxer.
+- J'aime les sauts vertigineux: L' IA et le Parachutisme.
+- J'aime les grands espaces: DD 4To SSD et Parc de Yellowstone.
 
+J'aspire à continuer de m'épanouir dans mon métier et mes loisirs en rencontrant toujours plus de personnes passionnées et inspirantes.
 
-
-~ Code, Aventure et Maté !
-
+Greg ~ Code, Aventure et Maté !
 
 
 ---cta
 ---
-## Vous souhaitez me parler de votre projet ?
+## Vous souhaitez me parler de vos projets ?
 
-Discutons de tout ça ensemble !
+Discutons-en ensemble !
 
 <Button href="/contact">
   Me Contacter
@@ -49,14 +47,13 @@ Discutons de tout ça ensemble !
 
 
 ---skills_header
-title: Je suis specialisé en
+title: Je suis
 list:
-  - Développement Front-End
-  - Responsive Web Design
-  - REACT
+  - Développeur Front-End
+  - React
+  - NextJS 
+  
 ---
-
-
 
 ---skills[0]
 title: Langages
@@ -72,12 +69,11 @@ list:
   - title: JavaScript
     level: 4
     icon:
-      src: /icons/javascript.svg
+      src: /icons/html5.svg
   - title: TypeScript
     level: 3
     icon:
-      src: /icons/typescript.svg
-  
+      src: /icons/html5.svg
 ---
 
 ---skills[1]
@@ -141,9 +137,9 @@ list:
   - title: Figma
     level: 4
     icon:
-      src: /icons/nodedotjs.svg
+      src: /icons/html5.svg
   - title: WordPress
-    level: 5
+    level: 4
     icon:
       src: /icons/prisma.svg
   - title: NPM/Yarn
@@ -160,36 +156,32 @@ list:
 
 
 
-
-
-
-
 ---history[0]
-title: Employment
+title: Expérience
 list:
-  - name: MetaVerse Inc.
-    description: Web3 Developer
-    date: 2020-Present
-  - name: Vircil Intl Co..
-    description: Back-End Developer and Designer
-    date: 2018-2020
-  - name: Crowdcube Inc.
-    description: Technical Support
-    date: 2018-2015
+  - name: Hypelago
+    description: Fondateur / Développeur Web
+    date: 2019-2022
+  - name: Jump (Groupe Bizness)
+    description: Développeur Front-End
+    date: 2016-2019
+  - name: Artiste Indépendant
+    description: Musicien / Enseignant
+    date: 2007-2014
 ---
 
 
 
 ---history[1]
-title: Education
+title: Formation
 list:
-  - name: Stanford university
-    description: MSc (Computer Science)
-    date: 2006-2010
-  - name: University of Los Angeles
-    description: MSc (Human Computer Interaction)
-    date: 2010-2014
-  - name: Berkeley University
-    description: MSc (Information Technology)
-    date: 2015-2019
+  - name: Front-End React Engineer Paths
+    description: Scrimba & Codecademy
+    date: 2022-2023
+  - name: Parcours Développeur Web
+    description: OpenClassrooms
+    date: 2015-2016
+  - name: Cambridge English Certificate (C2)
+    description: Rennert International (New York)
+    date: 2014-2015
 ---

@@ -24,9 +24,9 @@ Si on est obligé de les expliquer, c'est qu'elles ne pas sont pas trés bonnes.
 
 ```js {2-4} showLineNumbers
 const savoirFaire = [
-  'Integration Web'
+  'Developpement Front-End'
   'Responsive Web Design'
-  'Developpement Front-end'
+  'Integration Web'
 ]
 if(travailler_ensemble) navigate('/contact')
 ```

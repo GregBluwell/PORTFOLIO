@@ -17,9 +17,9 @@ const { inputs } = config.contactForm || {}
 const FormComponent = {
   text: FormInput,
   textarea: FormTextarea,
-  select: FormSelect,
-  radio: FormRadio,
-  checkbox: FormCheckbox,
+  // select: FormSelect,
+  // radio: FormRadio,
+  // checkbox: FormCheckbox,
 }
 
 const ErrorMessage = ({ errors, name }) =>
@@ -32,8 +32,8 @@ const SuccessMessage = () => (
     <div className="absolute inset-0 z-20 flex h-full w-full items-center justify-center bg-omega-800/95">
       <div className="max-w-md text-center">
         <SlCheck className="mx-auto text-5xl text-alpha" />
-        <h5>Thank you for contacting me.</h5>
-        <p>I will get back to you as soon as possible.</p>
+        <h5>Merci pour votre message.</h5>
+        <p>Je reviens vers vous au plus vite.</p>
       </div>
     </div>
   </Reveal>
@@ -127,7 +127,7 @@ const Contact01 = ({ main = {} }) => {
                     className="w-full sm:w-1/3"
                     disabled={isSubmitting}
                   >
-                    Submit
+                    Envoyer
                   </Button>
                 </div>
               </div>
