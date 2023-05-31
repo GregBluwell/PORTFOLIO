@@ -72,12 +72,12 @@ const Layout = ({ main = {}, cta = {}}) => (
       <div className="relative shrink-0 basis-1/2 text-center md:order-2 md:-ml-20">
         <HeroPhoto main={main} />
       </div>
-      <div className="z-10 mt-6 basis-full md:mb-12 md:mt-0">
+      <div className="border-red-500 z-10 mt-6 basis-full md:mb-12 md:mt-0">
         <HeroAbout main={main} />
       </div>
     </div>
     <div className="relative z-10">
-      <Sep line className="hidden md:block" />
+      <Sep line className="hidden block" />
       <div
         className={classNames(
           'md:bg-gradient-omega-900 flex flex-wrap items-center justify-between',
