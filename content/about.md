@@ -65,15 +65,15 @@ list:
   - title: CSS3/SASS
     level: 5
     icon:
-      src: /icons/css.svg
+      src: /icons/css3.svg
   - title: JavaScript
     level: 4
     icon:
-      src: /icons/html5.svg
+      src: /icons/javascript.svg
   - title: TypeScript
     level: 3
     icon:
-      src: /icons/html5.svg
+      src: /icons/typescript.svg
 ---
 
 ---skills[1]
