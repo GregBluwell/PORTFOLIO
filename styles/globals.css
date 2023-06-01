@@ -61,6 +61,11 @@
 }
 
 
+/* ICONS */
+.icon-w-30 {
+  width: 30px !important;
+}
+
 /* ACCUEIL */
 .animate-typewriter {
   padding: 0.25rem;
