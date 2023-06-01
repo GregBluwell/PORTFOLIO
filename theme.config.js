@@ -55,7 +55,7 @@ export const menu = [
   //   Icon: TfiPencilAlt,
   // },
   {
-    name: 'Projets',
+    name: 'Portfolio',
     slug: '/projects',
     Icon: IoFolderOpenOutline,
   },

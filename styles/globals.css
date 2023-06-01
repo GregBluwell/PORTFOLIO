@@ -74,7 +74,7 @@
 }
 
 .cta-container a:first-child {
-  @apply mt-6;
+  /* @apply mt-6; */
 }
 
  

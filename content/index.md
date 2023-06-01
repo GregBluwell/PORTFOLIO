@@ -32,17 +32,15 @@ if(travailler_ensemble) navigate('/contact')
 ```
 
 ---achievements
-- number:
-  text: 
-- number: 
-  text:
-- number: 
-  text: 
-- number: 
-  text: 
+- number: 6+
+  text: Années d'experience
+- number: 40+
+  text: Projets en entreprise
+- number: 3
+  text: Langues parlées
 ---
 
-CACA
+
 
 
 
