@@ -56,7 +56,7 @@ export const menu = [
   // },
   {
     name: 'Portfolio',
-    slug: '/projects',
+    slug: '/portfolio',
     Icon: IoFolderOpenOutline,
   },
   {
