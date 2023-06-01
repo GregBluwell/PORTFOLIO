@@ -16,8 +16,7 @@ seo:
   ### _Parlons de nos projets_
 </PageTitle>
 
-Thinking about a new project, a problem to solve, or just want to connect? Let's do it!
-Use the form on this page or get in touch by other means.
+Vous souhaitez rentrer en contact avec moi ? Vous avez besoins de conseils ou de renseignements ? N'hésitez pas à me contacter via le formulaire ci-dessous, je vous répondrai dans les plus brefs délais.
 
 <Sep size="12" />
 

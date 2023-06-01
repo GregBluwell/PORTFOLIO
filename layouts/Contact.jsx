@@ -77,7 +77,7 @@ const Contact01 = ({ main = {} }) => {
     }
   }, [isValidating, errors.service, clearErrors])
 
-  return (
+  return ( 
     <div className="my-auto p-3 md:p-6 lg:p-12">
       <div className="prose prose-invert items-start lg:flex">
         <Reveal

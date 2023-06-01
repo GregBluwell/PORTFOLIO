@@ -37,7 +37,7 @@ if(travailler_ensemble) navigate('/contact')
 - number: 40+
   text: Projets en entreprise
 - number: 3
-  text: Langues parlées
+  text: Langues (Fr·En·Es) 
 ---
 
 

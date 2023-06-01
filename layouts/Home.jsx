@@ -113,7 +113,6 @@ const Layout = ({ main = {}, cta = {} }) => (
       </div>
       <div className="home-footer_container mt-6 hidden w-3/4 border border-white px-2 pr-12 md:block">
         {/* <Companies {...companies} /> */}
-        <div className="home-footer text-xs text-white">Ceci est un petit fouteur de l'accueil</div>
       </div>
     </div>
   </div>

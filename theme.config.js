@@ -101,9 +101,9 @@ export const config = {
   },
   contactForm: {
     inputs: require('./content/contact-form.json'),
-    recipient: 'RECIPIENT@EXAMPLE.com',
-    sender: 'SENDER@EXAMPLE.com',
-    subject: 'EMAIL NOTIFICATION SUBJECT',
+    recipient: 'contact@hypelago.com',
+    sender: 'contact@hypelago.com',
+    subject: 'EMAIL FROM GREGBLUWELL.DEV',
   },
 }
 

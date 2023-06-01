@@ -9,7 +9,7 @@ const Reveal = (props) => {
     triggerOnce = true,
     delay = undefined,
     duration = undefined,
-    timeout = undefined,
+    timeout = 0,
     style = {},
     children,
     ...rest

@@ -19,11 +19,11 @@ Développeur Front-End à l'expérience signicative et à l'expertise grandissan
 Développement Front-End de Sites et d'Applications Web • Réalisation de MOOC/Mini-Jeux • Responsive Web Design • UX/UI Design • Intégration Web 
 
 ##### <span>03.</span> Centres d'Intérêt
-100% "Nerd" et 100% "Sportif", je cultive cet équilibre indispensable depuis l'époque de mon premier "Texas Instruments TI-99/4A" et de mon premier Bicross (BMX ♥). 
+Ouais, c'est Greg... 100% "Geek" et 100% "Sportif", je cultive cet équilibre indispensable depuis l'époque de mon premier "Texas Instruments TI-99/4A" et de mon premier Bicross (BMX ♥). 
 
-Passionné durant de nombreuses années par la composition musicale (MAO) et l'écriture, ce sont, aujourd'hui, les technologies Blockchain/Web3 qui stimulent ma curiosité et mon envie d'apprendre continuellement.
+Passionné durant de nombreuses années par la composition musicale (MAO) et l'écriture, ce sont, aujourd'hui, les technologies Web3 qui stimulent ma curiosité et mon envie d'apprendre continuellement.
 
-J'ai grandi à Toulouse, j'ai vécu à New York, je parle donc courrament toulousain et anglais.
+J'ai grandi à Toulouse, j'ai vécu à New York, je parle donc courrament toulousain, anglais et espagnol.
 
 - J'aime les belles bagarres: Coder et Boxer.
 - J'aime les sauts vertigineux: L' IA et le Parachutisme.
@@ -31,7 +31,7 @@ J'ai grandi à Toulouse, j'ai vécu à New York, je parle donc courrament toulou
 
 J'aspire à continuer de m'épanouir dans mon métier et mes loisirs en rencontrant toujours plus de personnes passionnées et inspirantes.
 
-Greg ~ Code, Aventure et Maté !
+Code, Aventure et Maté. Let's do it ! ~ Greg
 
 
 ---cta
@@ -49,9 +49,9 @@ Discutons-en ensemble !
 ---skills_header
 title: Je suis
 list:
-  - Développeur Front-End
-  - React
-  - NextJS 
+  - Pratiquant React et NextJS
+  - Développeur Web
+  - Spécialiste Front-End
   
 ---
 
