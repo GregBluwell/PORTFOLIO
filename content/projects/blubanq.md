@@ -2,21 +2,21 @@
 layout: Post
 title: Modern UI/UX Business Showcase Landing Page
 description: Ici la description du projet ?
-date: '2020-11-22'
+date: '2020-01-01'
 deployLink: 'https://blubanq.netlify.app/'
 tags:
   - React
   - TailwindCSS
   
 logo:
-  src: /icons/logo-2.svg
-  alt: Greg Bluwell
+  src: /icons/blubanq-logo.svg
+  alt: project logo
 images:
-  - src: /projects/project-3.png
-    alt: Control Panel Dashboard
+  - src: /projects/1-blubanq-dt.png
+    alt: projet-1 Panel Dashboard
     overlay:
-      src: /projects/project-3-mobile.png
-      alt: Control Panel Mobile
+      src: /projects/1-blubanq-mb.png
+      alt: projet-1 Panel Mobile
   
 attributes:
   - label: GitHub Picto

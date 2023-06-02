@@ -90,7 +90,7 @@ list:
   - title: NEXTJS
     level: 3
     icon:
-      src: /icons/graphql.svg
+      src: /icons/next.svg
   - title: Redux Toolkit
     level: 3
     icon:
@@ -98,15 +98,15 @@ list:
   - title: TailwindCSS
     level: 4
     icon:
-      src: /icons/nodedotjs.svg
+      src: /icons/tailwind.svg
   - title: Material UI
     level: 3
     icon:
-      src: /icons/prisma.svg
+      src: /icons/material.svg
   - title: Framer Motion
     level: 3
     icon:
-      src: /icons/prisma.svg
+      src: /icons/framermotion.svg
 ---
 
 ---skills[2]
@@ -115,19 +115,19 @@ list:
   - title: Firebase
     level: 4
     icon:
-      src: /icons/html5.svg
+      src: /icons/firebase.svg
   - title: Sanity
     level: 4
     icon:
-      src: /icons/html5.svg
+      src: /icons/sanity1.svg
   - title: Vercel
     level: 3
     icon:
-      src: /icons/html5.svg
+      src: /icons/vercel.svg
   - title: Netlify
     level: 3
     icon:
-      src: /icons/html5.svg
+      src: /icons/netlify.svg
   
 ---
 
@@ -137,19 +137,19 @@ list:
   - title: Figma
     level: 4
     icon:
-      src: /icons/html5.svg
+      src: /icons/figma.svg
   - title: WordPress
     level: 4
     icon:
-      src: /icons/prisma.svg
+      src: /icons/wordpress.svg
   - title: NPM/Yarn
     level: 4
     icon:
-      src: /icons/html5.svg
+      src: /icons/npm.svg
   - title: Git/Github
     level: 4
     icon:
-      src: /icons/html5.svg
+      src: /icons/git.svg
   
 ---
 
