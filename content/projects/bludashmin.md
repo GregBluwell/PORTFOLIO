@@ -8,7 +8,7 @@ tags:
   - React
   - Material UI
   - Nivo Charts
-  - Full Calendar
+  - Full Calendar 
   - Formik
   
   

@@ -49,9 +49,7 @@ Discutons-en ensemble !
 ---skills_header
 title: Je suis
 list:
-  - Pratiquant React et NextJS
-  - Développeur Web
-  - Spécialiste Front-End
+  - Développeur Front-End
   
 ---
 
