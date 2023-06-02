@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# env
+.env
+
 # dependencies
 /node_modules
 /.pnp
@@ -40,3 +43,4 @@ feed.xml
 robots.txt
 sitemap.xml
 sitemap-[0-9]*.xml
+
