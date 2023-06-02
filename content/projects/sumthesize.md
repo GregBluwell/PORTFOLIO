@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: Article Summarizer AI App
+title: Article (from URL) Summarizer AI App
 description: Ici la description du projet ?
 date: '2020-03-03'
 deployLink: 'https://sumthesize.netlify.app/'
@@ -11,7 +11,7 @@ tags:
   - OpenAI API
   
 logo:
-  src: /icons/sumthesize-logo.svg
+  src: /icons/sumthesize-logo-2.svg
   alt: project logo
 images:
   - src: /projects/3-sumthesize-dt.png

@@ -13,7 +13,7 @@ tags:
   
   
 logo:
-  src: /icons/bludashmin-logo.svg
+  src: /icons/bludashmin-logo-2.svg
   alt: project logo
 images:
   - src: /projects/2-bludashmin-dt.png
