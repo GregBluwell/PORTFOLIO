@@ -16,9 +16,9 @@ seo:
   ### _Parlons de nos projets_
 </PageTitle>
 
-Vous souhaitez rentrer en contact avec moi ?  
-Vous avez besoins de conseils ou de renseignements ?  
-N'hésitez pas à me contacter via le formulaire ci-dessous, je vous répondrai dans les plus brefs délais.
+Vous souhaitez me joindre ?  
+Besoin d'un renseignement ?  
+<strong className="text-green-500">Utlisez le formulaire, ou les liens ci-dessous, je vous répondrai au plus vite.</strong>
 
 <Sep size="12" />
 

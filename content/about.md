@@ -21,7 +21,7 @@ Développement Front-End de Sites et d'Applications Web • Réalisation de MOOC
 ##### <span>03.</span> Centres d'Intérêt
 Ouais, c'est Greg... 100% "Geek" et 100% "Sportif", je cultive cet équilibre indispensable depuis l'époque de mon premier "Texas Instruments TI-99/4A" et de mon premier Bicross (BMX ♥). 
 
-Passionné durant de nombreuses années par la composition musicale (MAO) et l'écriture, ce sont, aujourd'hui, les technologies Web3 qui stimulent ma curiosité et mon envie d'apprendre continuellement.
+Passionné depuis de nombreuses années par la composition musicale (MAO) et l'écriture, ce sont, aujourd'hui, les technologies Web3 qui stimulent ma curiosité et mon envie d'apprendre continuellement.
 
 J'ai grandi à Toulouse, j'ai vécu à New York, je parle donc courrament toulousain, anglais et espagnol.
 
@@ -145,7 +145,7 @@ list:
   - title: NPM/Yarn
     level: 4
     icon:
-      src: /icons/svelte.svg
+      src: /icons/html5.svg
   - title: Git/Github
     level: 4
     icon:

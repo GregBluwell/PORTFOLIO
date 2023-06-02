@@ -77,7 +77,7 @@
       {
         "type": "textarea",
         "name": "message",
-        "placeholder": "ex: Bonjour, je suis Elon Musk, ...",
+        "placeholder": "ex: Bonjour, je m'appelle Elon, ...",
         "rows": 4
       }
     ]
