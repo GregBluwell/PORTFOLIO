@@ -19,8 +19,8 @@ images:
 
 # *Développeur Web Front-End* 
 
-Les Interfaces Utilisateurs c'est comme les blagues.  
-Si on est obligé de les expliquer, c'est qu'elles ne pas sont pas trés bonnes...
+Les Interfaces Utilisateurs c'est comme les blagues...  
+Si on est obligé de les expliquer, c'est qu'elles ne sont pas trés bonnes.
 
 ```js {2-4} showLineNumbers
 const savoirFaire = [
@@ -33,7 +33,7 @@ if(travailler_ensemble) navigate('/contact')
 
 ---achievements
 - number: 6+
-  text: Années d'experience
+  text: Années d'expérience
 - number: 40+
   text: Projets en entreprise
 - number: 3

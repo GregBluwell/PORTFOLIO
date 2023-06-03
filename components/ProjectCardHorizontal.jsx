@@ -100,7 +100,7 @@ const ProjectCardHorizontal = ({
           {attributes.map(({ label, value }) => (
             <div key={label} className="basis-1/2 py-2">
               <dt className="mb-1 font-bold dark:text-accent-400">{label}</dt>
-              <dd>{value}</dd>
+              <img src={value} alt="logo_"/>
             </div>
           ))}
         </dl>

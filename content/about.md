@@ -19,7 +19,7 @@ Développeur Front-End à l'expérience signicative et à l'expertise grandissan
 Développement Front-End de Sites et d'Applications Web • Réalisation de MOOC/Mini-Jeux (JavaScript) • Responsive Web Design • UX/UI Design • Intégration Web 
 
 ##### <span>03.</span> Centres d'Intérêt
-100% "Nerd" et 100% "Sportif", je cultive cet équilibre indispensable depuis l'époque de mon premier "Texas Instruments TI-99/4A", et de mon premier Bicross (BMX ♥). 
+100% "Nerd" et 100% "Sportif", je cultive cet équilibre indispensable depuis l'époque de mon premier *Texas Instruments TI-99/4A*, et de mon premier *Bicross (BMX ♥)* . 
 
 Passionné depuis de nombreuses années par la composition musicale (MAO) et l'écriture, ce sont, aujourd'hui, les technologies liées au Web qui stimulent ma curiosité et mon envie d'apprendre continuellement.
 

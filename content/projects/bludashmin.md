@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: Admin Dashboard & Data Visualisation
-description: Tableau de bord d'administration et de visualisation de données d'une application de gestion de projet (Equipe, Contacts, Agenda, Budget).
+description: Desktop · Tableau de bord d'administration et de visualisation de données d'une application de gestion de projet (Equipe, Contacts, Agenda, Budget).'
 date: '2020-02-02'
 deployLink: 'https://bludashmin.netlify.app/'
 tags:

@@ -6,7 +6,7 @@
       {
         "type": "text",
         "name": "first-name",
-        "placeholder": "Prénom",
+        "placeholder": "Prénom *",
         "autoComplete": "given-name",
         "required": true
       },
@@ -14,23 +14,23 @@
         "type": "text",
         "name": "last-name",
         "placeholder": "Nom",
-        "autoComplete": "family-name",
-        "required": true
-      },
-      {
-        "type": "text",
-        "name": "email",
-        "placeholder": "Adresse email",
-        "autoComplete": "email",
-        "inputType": "email",
-        "required": true
+        "autoComplete": "family-name"
       },
       {
         "type": "text",
         "name": "company",
-        "placeholder": "Nom de la Société",
+        "placeholder": "Société",
         "autoComplete": "company"
       },
+      {
+        "type": "text",
+        "name": "email",
+        "placeholder": "Email *",
+        "autoComplete": "email",
+        "inputType": "email",
+        "required": true
+      },
+      
       {
         "type": "text",
         "name": "phone",
@@ -71,14 +71,15 @@
   
   
   {
-    "legend": "Votre message ",
+    "legend": "Votre message *",
     "columns": 1,
     "fields": [
       {
         "type": "textarea",
         "name": "message",
         "placeholder": "ex: Bonjour, je m'appelle Elon, ...",
-        "rows": 4
+        "rows": 4,
+        "required": true
       }
     ]
   }
