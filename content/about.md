@@ -163,12 +163,17 @@ list:
   - name: Hypelago
     description: Fondateur / Développeur Web
     date: 2019-2022
+    imgURL: ./img/logo-test-2.png
   - name: Jump (Groupe Bizness)
     description: Développeur Front-End
     date: 2016-2019
+    imgURL: ./img/logo-test-2.png
+
   - name: Artiste Indépendant
     description: Musicien / Enseignant
     date: 2007-2014
+    imgURL: ./img/logo-test-2.png
+
 ---
 
 
@@ -179,10 +184,13 @@ list:
   - name: Front-End React Engineer Paths
     description: Scrimba & Codecademy
     date: 2022-2023
+    imgURL: ./img/logo-test-2.png
   - name: Parcours Développeur Web
     description: OpenClassrooms
     date: 2015-2016
+    imgURL: ./img/logo-test-2.png
   - name: Cambridge English Certificate (C2)
     description: Rennert International (New York)
     date: 2014-2015
+    imgURL: ./img/logo-test-2.png
 ---

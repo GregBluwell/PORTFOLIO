@@ -14,16 +14,23 @@ const History = ({ title, list }) => (
       className="h-1.5 bg-gradient-to-r from-black via-beta to-alpha"
     />
     <div className="mt-6 flex flex-col md:mt-12">
-      {list?.map((item, i) => (
+      {list?.map((item, i, imgURL) => (
         <React.Fragment key={`item-${i}`}>
-          <div className="flex" key={`item-${i}`}>
-            <div>
-              <h6 className="pr-1 font-medium">{item.name}</h6>
-              <div>{item.description}</div>
-              <img src={item.imgURL} alt="logo" />
-
-            </div>
+          <div className="flex flex-col card-container border-2 border-black" key={`item-${i}`}>
+            <div className='card-line-1 bg-pink-300 inline-flex justify-between'>
+              <div className="card-logo-container">
+            | IMAGE |
+              </div>
+            <div className="card-date-container">
             <small className="ml-auto shrink-0 opacity-60">{item.date}</small>
+            </div>
+            </div>
+              <div className='card-line-2 bg-orange-300 flex flex-col mt-2'>
+              <div className="card-title-container">
+              <h6 className="pr-1 m-0 font-medium">{item.name}</h6>
+              </div>
+               <div className=''>{item.description}</div>
+            </div>
           </div>
           <hr className="my-6" />
         </React.Fragment>

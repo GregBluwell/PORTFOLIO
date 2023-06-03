@@ -101,8 +101,8 @@ export const config = {
   },
   contactForm: {
     inputs: require('./content/contact-form.json'),
-    recipient: 'contact@hypelago.com',
-    sender: 'contact@hypelago.com',
+    recipient: 'contact@grebluwell.dev',
+    sender: 'contact@grebluwell.dev',
     subject: 'EMAIL FROM GREGBLUWELL.DEV',
   },
 }
@@ -129,9 +129,9 @@ export const siteMetaData = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
   authorName: 'Greg Fouetillou',
   siteName: 'Greg Fouetillou',
-  defaultTitle: 'Greg Fouetillou | Portfolio',
-  titleTemplate: 'Greg Fouetillou | Portfolio',
-  description: 'A short description goes here.',
+  defaultTitle: 'Greg Fouetillou | Web Developer',
+  titleTemplate: 'Greg Fouetillou | Web Developer',
+  description: 'Greg Fouetillou, front-end web developer, portfolio website.',
   email: 'greg.bluwell@proton.me',
   locale: 'en_US',
   // twitter: {
