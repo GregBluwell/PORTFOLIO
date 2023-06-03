@@ -4,6 +4,7 @@ import classNames from 'clsx'
 import Image from '@/components/Image'
 import Icon from '@/components/Icon'
 import Tag from '@/components/Tag'
+import { FaGithub } from 'react-icons/fa'
 
 const ProjectCardHorizontal = ({
   title,
@@ -96,12 +97,21 @@ const ProjectCardHorizontal = ({
         </>
       )}
       {attributes && Array.isArray(attributes) && (
-        <dl className="mt-2 flex flex-wrap">
-          {attributes.map(({ label, value }) => (
-            <div key={label} className="basis-1/2 py-2">
-              <dt className="mb-1 font-bold dark:text-accent-400">{label}</dt>
-              <img src={value} alt="logo_"/>
-            </div>
+        <dl className="mt-4 flex flex-wrap">
+          {attributes.map(({ githubUrl }) => (
+            <a
+              key={githubUrl}
+              href={githubUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="basis-1/2 py-1 hover:text-accent "
+            >
+              <FaGithub
+
+              className='w-6 h-6'/>
+
+             
+            </a>
           ))}
         </dl>
       )}

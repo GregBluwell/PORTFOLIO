@@ -21,8 +21,7 @@ images:
   
   
 attributes:
-  - label: GitHub Picto
-    value: + GitHub _blank link
+  - githubUrl: "https://github.com/GregBluwell/BLUDASHMIN"
 ---
 
  

@@ -19,8 +19,7 @@ images:
       alt: projet-1 Panel Mobile
   
 attributes:
-  - label: GitHub Picto
-    value: + GitHub _blank link
+  - githubUrl: "https://github.com/GregBluwell/BLUBANQ"
 ---
 
  

@@ -20,6 +20,8 @@ const History = ({ title, list }) => (
             <div>
               <h6 className="pr-1 font-medium">{item.name}</h6>
               <div>{item.description}</div>
+              <img src={item.imgURL} alt="logo" />
+
             </div>
             <small className="ml-auto shrink-0 opacity-60">{item.date}</small>
           </div>
@@ -123,7 +125,7 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
             </div>
           ))}
         </div>
-      )}
+      )} 
     </div>
   )
 }

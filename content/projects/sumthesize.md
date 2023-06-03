@@ -21,7 +21,6 @@ images:
       alt: projet-3 Panel Mobile
   
 attributes:
-  - label: GitHub Picto
-    value: + GitHub _blank link
+  - githubUrl: "https://github.com/GregBluwell/SUMTHESIZE"
 ---
  
