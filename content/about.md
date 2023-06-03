@@ -16,14 +16,14 @@ images:
 Développeur Front-End à l'expérience signicative et à l'expertise grandissante, j'aime m'investir dans les projets à taille humaine qui me permettent de contribuer à la réalisation de solutions innovantes. Naturellement animé par l'esprit d'équipe et profondément passionné par mon métier, je cultive un fort intérêt pour ses évolutions et les enjeux qui y sont liés.
 
 ##### <span>02.</span> Savoir-Faire
-Développement Front-End de Sites et d'Applications Web • Réalisation de MOOC/Mini-Jeux • Responsive Web Design • UX/UI Design • Intégration Web 
+Développement Front-End de Sites et d'Applications Web • Réalisation de MOOC/Mini-Jeux (JavaScript) • Responsive Web Design • UX/UI Design • Intégration Web 
 
 ##### <span>03.</span> Centres d'Intérêt
-Ouais, c'est Greg... 100% "Geek" et 100% "Sportif", je cultive cet équilibre indispensable depuis l'époque de mon premier "Texas Instruments TI-99/4A" et de mon premier Bicross (BMX ♥). 
+100% "Nerd" et 100% "Sportif", je cultive cet équilibre indispensable depuis l'époque de mon premier "Texas Instruments TI-99/4A", et de mon premier Bicross (BMX ♥). 
 
-Passionné depuis de nombreuses années par la composition musicale (MAO) et l'écriture, ce sont, aujourd'hui, les technologies Web3 qui stimulent ma curiosité et mon envie d'apprendre continuellement.
+Passionné depuis de nombreuses années par la composition musicale (MAO) et l'écriture, ce sont, aujourd'hui, les technologies liées au Web qui stimulent ma curiosité et mon envie d'apprendre continuellement.
 
-J'ai grandi à Toulouse, j'ai vécu à New York, je parle donc courrament toulousain, anglais et espagnol.
+J'ai grandi à Toulouse, j'ai vécu à New York, je parle donc courramment toulousain, anglais et espagnol.
 
 - J'aime les belles bagarres: Coder et Boxer.
 - J'aime les sauts vertigineux: L' IA et le Parachutisme.
@@ -31,14 +31,15 @@ J'ai grandi à Toulouse, j'ai vécu à New York, je parle donc courrament toulou
 
 J'aspire à continuer de m'épanouir dans mon métier et mes loisirs en rencontrant toujours plus de personnes passionnées et inspirantes.
 
-Code, Aventure et Maté. Let's do it ! ~ Greg
+Code, Aventure et Maté.  
+💻, 🌄, 🧉 ~ Greg
 
 
 ---cta
 ---
-## Vous souhaitez me parler de vos projets ?
+## Vous avez un projet ?
 
-Discutons-en ensemble !
+Discutons-en !
 
 <Button href="/contact">
   Me Contacter
@@ -50,6 +51,8 @@ Discutons-en ensemble !
 title: Je suis
 list:
   - Développeur Front-End
+  - Responsive Web Designer
+  - Intégrateur Web
   
 ---
 
@@ -85,7 +88,7 @@ list:
     level: 4
     icon:
       src: /icons/react.svg
-  - title: NEXTJS
+  - title: NEXT.JS
     level: 3
     icon:
       src: /icons/next.svg
@@ -102,7 +105,7 @@ list:
     icon:
       src: /icons/material.svg
   - title: Framer Motion
-    level: 3
+    level: 2
     icon:
       src: /icons/framermotion.svg
 ---
@@ -111,7 +114,7 @@ list:
 title: Back-End & Déploiement
 list:
   - title: Firebase
-    level: 4
+    level: 3
     icon:
       src: /icons/firebase.svg
   - title: Sanity
@@ -123,7 +126,7 @@ list:
     icon:
       src: /icons/vercel.svg
   - title: Netlify
-    level: 3
+    level: 4
     icon:
       src: /icons/netlify.svg
   

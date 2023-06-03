@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: Modern UI/UX Business Showcase Landing Page
-description: Ici la description du projet ?
+title: Fintech Business Showcase Landing Page
+description: Interface UX/UI d'une page de présentation d'une entreprise de type "Banque en Ligne" et de son service principal. 
 date: '2020-01-01'
 deployLink: 'https://blubanq.netlify.app/'
 tags:
@@ -23,3 +23,4 @@ attributes:
     value: + GitHub _blank link
 ---
 
+ 
