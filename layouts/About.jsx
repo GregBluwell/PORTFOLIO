@@ -17,12 +17,14 @@ const History = ({ title, list }) => (
       {list?.map((item, i, imgURL) => (
         <React.Fragment key={`item-${i}`}>
           <div className="flex flex-col card-container border-2 border-black" key={`item-${i}`}>
-            <div className='card-line-1 bg-pink-300 inline-flex justify-between'>
+            <div className='card-line-1 bg-pink-300 inline-flex justify-between items-center'>
               <div className="card-logo-container">
-            | IMAGE |
+            {/* | IMAGE | <br />
+            | IMAGE | */}
+            <img src={item.imgURL} alt={item.imgAlt} className="card-logo m-0 w-10 h-10" />
               </div>
             <div className="card-date-container">
-            <small className="ml-auto shrink-0 opacity-60">{item.date}</small>
+            <small className="ml-auto shrink-0 bg-black text-white opacity-90 py-1 px-2">{item.date}</small>
             </div>
             </div>
               <div className='card-line-2 bg-orange-300 flex flex-col mt-2'>
