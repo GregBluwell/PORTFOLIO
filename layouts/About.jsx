@@ -8,30 +8,32 @@ import Icon from '@/components/Icon'
 
 const History = ({ title, list }) => (
   <>
-    <h3>{title}</h3>
+    <h3> {title} </h3>
     <Reveal
       animation="fade-in scale-x"
       className="h-1.5 bg-gradient-to-r from-black via-beta to-alpha"
     />
     <div className="mt-6 flex flex-col md:mt-12">
-      {list?.map((item, i, imgURL) => (
+      {list?.map((item, i) => (
         <React.Fragment key={`item-${i}`}>
-          <div className="flex flex-col card-container border-2 border-black" key={`item-${i}`}>
-            <div className='card-line-1 bg-pink-300 inline-flex justify-between items-center'>
+          <div className="card-container flex flex-col border-2 border-black" key={`item-${i}`}>
+            <div className="card-line-1  inline-flex items-center justify-between">
               <div className="card-logo-container">
-            {/* | IMAGE | <br />
-            | IMAGE | */}
-            <img src={item.imgURL} alt={item.imgAlt} className="card-logo m-0 w-10 h-10" />
+                <a href={item.linkURL} target="_blank">
+                  <img src={item.imgURL} alt={item.imgAlt} className="card-logo m-0 h-7" />
+                </a>
               </div>
-            <div className="card-date-container">
-            <small className="ml-auto shrink-0 bg-black text-white opacity-90 py-1 px-2">{item.date}</small>
+              <div className="card-date-container">
+                <small className="ml-auto shrink-0 bg-black py-1 px-2 text-white opacity-90">
+                  {item.date}
+                </small>
+              </div>
             </div>
-            </div>
-              <div className='card-line-2 bg-orange-300 flex flex-col mt-2'>
+            <div className="card-line-2 mt-2 flex flex-col bg-orange-300">
               <div className="card-title-container">
-              <h6 className="pr-1 m-0 font-medium">{item.name}</h6>
+                <h6 className="m-0 pr-1 font-medium">{item.name}</h6>
               </div>
-               <div className=''>{item.description}</div>
+              <div className="">{item.description}</div>
             </div>
           </div>
           <hr className="my-6" />
@@ -134,7 +136,7 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
             </div>
           ))}
         </div>
-      )} 
+      )}
     </div>
   )
 }

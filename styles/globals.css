@@ -86,8 +86,14 @@
 
 
 /* ABOUT  */
+.card-logo {
+  filter:grayscale(100%);
+}
 
-
+.card-logo:hover {
+  filter:grayscale(0%);
+  cursor: pointer;
+}
 
 /* PORTFOLIO */
 

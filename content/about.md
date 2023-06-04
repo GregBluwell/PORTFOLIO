@@ -163,11 +163,13 @@ list:
   - name: Hypelago
     description: Fondateur / Développeur Web
     date: 2019-2022
-    imgURL: ./img/logo-test-2.png
+    imgURL: ./img/logo-hypelago-2.png
+    linkURL: https://hypelago.com
   - name: Jump (Groupe Bizness)
     description: Développeur Front-End
     date: 2016-2019
-    imgURL: ./img/logo-test-2.png
+    imgURL: ./img/logo-bizness-2.png
+    linkURL: https://groupe-bizness.com
 
   - name: Artiste Indépendant
     description: Musicien / Enseignant
