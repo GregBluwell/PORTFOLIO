@@ -23,7 +23,7 @@ Besoin d'un renseignement ?
 <Sep size="12" />
 
 <small>
-  <Icon src="/icons/cell-phone.svg" className="icon-w-30 inline mr-1 align-middle fill-current text-omega-500" />[+(33) 6 52 88 57 85](tel:+33652885785)
+  <Icon src="/icons/cell-phone.svg" className="icon-w-30 inline mr-1 align-middle fill-current text-omega-500" />[+(33) 6 52 88 07 85](tel:+33652880785)
 
   <Icon src="/icons/mail.svg" className="mr-2 inline align-middle fill-current text-omega-500" />contact@gregbluwell.dev
 
