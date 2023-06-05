@@ -46,6 +46,7 @@ const HeroAbout = ({ main }) => (
     )}
   >
     <ContentRenderer source={main} />
+  
   </Reveal>
 )
 
@@ -85,31 +86,7 @@ const Layout = ({ main = {}, cta = {} }) => (
         )}
       >
         {/* <Achievements achievements={achievements} /> */}
-        <div className="skills-container prose prose-invert flex grow items-center justify-evenly border-2 border-white text-center">
-          <div className="technos-container flex flex-wrap items-center justify-center gap-3 bg-blue-300 p-1">
-            <div className="tech flex items-center justify-center border border-white text-white">
-              <IoLogoReact className="h-20 w-20" />
-            </div>
-            <div className="tech flex items-center justify-center border border-white text-white">
-              <IoLogoReact className="h-20 w-20" />
-            </div>
-            <div className="tech flex items-center justify-center border border-white text-white">
-              <IoLogoReact className="h-20 w-20" />
-            </div>
-            <div className="tech flex items-center justify-center border border-white text-white">
-              <IoLogoReact className="h-20 w-20" />
-            </div>
-            <div className="tech flex items-center justify-center border border-white text-white">
-              <IoLogoReact className="h-20 w-20" />
-            </div>
-            <div className="tech flex items-center justify-center border border-white text-white">
-              <IoLogoReact className="h-20 w-20" />
-            </div>
-          </div>
-          <div className="cta-container flex flex-col items-center justify-center bg-red-700">
-            <ContentRenderer source={cta} />
-          </div>
-        </div>
+       
       </div>
       <div className="home-footer_container mt-6 hidden w-3/4 border border-white px-2 pr-12 md:block">
         {/* <Companies {...companies} /> */}
