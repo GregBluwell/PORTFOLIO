@@ -7,6 +7,7 @@ import Reveal from '@/components/Reveal'
 // import Companies from '@/components/Companies'
 import { IoLogoReact } from 'react-icons/io5'
 
+
 const HeroPhoto = ({ main }) => (
   <>
     {main.images?.[0] && (
