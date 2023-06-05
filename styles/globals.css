@@ -95,6 +95,26 @@
   cursor: pointer;
 }
 
+/*Pictos*/
+/* MDA */
+#__next > div > div.relative.w-full.max-w-screen-xl > main > div > div > div.prose.flex-wrap.justify-between.bg-white.p-6.md\:flex > div:nth-child(1) > div.mt-6.flex.flex-col.md\:mt-12 > div:nth-child(5) > div.card-line-1.inline-flex.items-center.justify-between > div.card-logo-container.flex.gap-2.justify-start.items-center > a:nth-child(1) > img {
+  width: 3.25rem;
+  height: 3.25rem;
+  aspect-ratio: 1/1;
+}
+
+#__next > div > div.relative.w-full.max-w-screen-xl > main > div > div > div.prose.flex-wrap.justify-between.bg-white.p-6.md\:flex > div:nth-child(2) > div.mt-6.flex.flex-col.md\:mt-12 > div:nth-child(3) > div.card-line-1.inline-flex.items-center.justify-between > div.card-logo-container.flex.gap-2.justify-start.items-center > a:nth-child(1) > img {
+  width: 2.15rem;
+  height: 2.15rem;
+}
+
+#__next > div > div.relative.w-full.max-w-screen-xl > main > div > div > div.prose.flex-wrap.justify-between.bg-white.p-6.md\:flex > div:nth-child(2) > div.mt-6.flex.flex-col.md\:mt-12 > div:nth-child(5) > div.card-line-1.inline-flex.items-center.justify-between > div.card-logo-container.flex.gap-2.justify-start.items-center > a:nth-child(1) > img {
+  border: solide    1px    black; 
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+
 /* PORTFOLIO */
 
 /* CONTACTS */

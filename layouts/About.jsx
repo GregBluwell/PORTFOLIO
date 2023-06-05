@@ -4,7 +4,8 @@ import ContentRenderer from '@/components/ContentRenderer'
 import Typewriter from '@/components/Typewriter'
 import Reveal from '@/components/Reveal'
 import Image from '@/components/Image'
-import Icon from '@/components/Icon' 
+import Icon from '@/components/Icon'
+import {BiLinkExternal} from 'react-icons/bi'
 
 const History = ({ title, list }) => (
   <>
@@ -16,22 +17,26 @@ const History = ({ title, list }) => (
     <div className="mt-6 flex flex-col md:mt-12">
       {list?.map((item, i) => (
         <React.Fragment key={`item-${i}`}>
-          <div className="card-container flex flex-col border-2 border-black" key={`item-${i}`}>
+          <div className="card-container flex flex-col " key={`item-${i}`}>
             <div className="card-line-1  inline-flex items-center justify-between">
-              <div className="card-logo-container">
+              <div className="card-logo-container flex gap-2 justify-start items-center ">
                 <a href={item.linkURL} target="_blank">
                   <img src={item.imgURL} alt={item.imgAlt} className="card-logo m-0 h-7" />
                 </a>
+                <a href={item.linkURL} target="_blank">
+                <span className="about-ext-links text-omega-400"><BiLinkExternal/></span>
+                </a>
+                
               </div>
               <div className="card-date-container">
-                <small className="ml-auto shrink-0 bg-black py-1 px-2 text-white opacity-90">
+                <small className="ml-auto shrink-0 bg-omega-200 py-1 px-2 text-omega-700 opacity-90">
                   {item.date}
                 </small>
               </div>
             </div>
-            <div className="card-line-2 mt-2 flex flex-col bg-orange-300">
+            <div className="card-line-2 mt-2 flex flex-col ">
               <div className="card-title-container">
-                <h6 className="m-0 pr-1 font-medium">{item.name}</h6>
+                <h6 className="m-0 pr-1  font-semibold">{item.name}</h6>
               </div>
               <div className="">{item.description}</div>
             </div>

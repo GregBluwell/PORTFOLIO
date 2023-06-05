@@ -172,7 +172,8 @@ list:
   - name: Artiste Indépendant
     description: Musicien / Enseignant
     date: 2007-2014
-    imgURL: ./img/logo-mda-3.png
+    imgURL: ./img/logo-mda-1.png
+    linkURL: https://www.lamaisondesartistes.fr/site/
 
 ---
 
@@ -182,15 +183,18 @@ list:
 title: Formation
 list:
   - name: Front-End React Engineer Paths
-    description: Scrimba & Codecademy
+    description: Scrimba
     date: 2022-2023
-    imgURL: ./img/logo-test-2.png
+    imgURL: ./img/picto-scrimba-1.png
+    linkURL: https://scrimba.com/learn/frontend
   - name: Parcours Développeur Web
     description: OpenClassrooms
     date: 2015-2016
-    imgURL: ./img/logo-test-2.png
+    imgURL: ./img/picto-oc-1.png
+    linkURL: https://openclassrooms.com/fr/paths/717-developpeur-web
   - name: Cambridge English Certificate (C2)
     description: Rennert International (New York)
     date: 2014-2015
-    imgURL: ./img/logo-test-2.png
+    imgURL: ./img/picto-rennert-2.png
+    linkURL: https://www.rennert.com/
 ---
