@@ -51,8 +51,6 @@ Discutons-en !
 title: Je suis
 list:
   - Développeur Front-End
-  - Responsive Web Designer
-  - Intégrateur Web
   
 ---
 
@@ -174,7 +172,7 @@ list:
   - name: Artiste Indépendant
     description: Musicien / Enseignant
     date: 2007-2014
-    imgURL: ./img/logo-test-2.png
+    imgURL: ./img/logo-mda-3.png
 
 ---
 

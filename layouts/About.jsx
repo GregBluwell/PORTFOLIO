@@ -4,7 +4,7 @@ import ContentRenderer from '@/components/ContentRenderer'
 import Typewriter from '@/components/Typewriter'
 import Reveal from '@/components/Reveal'
 import Image from '@/components/Image'
-import Icon from '@/components/Icon'
+import Icon from '@/components/Icon' 
 
 const History = ({ title, list }) => (
   <>
@@ -98,16 +98,16 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
             )}
             <div className="absolute top-0 left-0 z-20 h-full w-full bg-gradient-to-b from-transparent via-transparent to-black/90" />
           </div>
-          <div className="z-10 bg-black p-6 text-center">
-            <h3 className="inline">{personal_info.name}</h3>
+          <div className="z-10  p-6 text-center">
+            <h3 className="inline"> {personal_info.name}</h3>
           </div>
           <div className="z-10 p-6 text-center md:p-8">
             <ContentRenderer source={cta} />
           </div>
         </div>
-        <div className="basis-2/3">
+        <div className="w-full ">
           {skills_header && (
-            <div className="p-6 md:p-12">
+            <div className="p-4 md:p-12 bg-gradient-omega-900">
               <h3 className="mb-2">{skills_header.title}</h3>
               {skills_header.list && (
                 <h3 className="inline">
