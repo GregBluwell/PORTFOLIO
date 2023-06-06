@@ -5,7 +5,7 @@ import Typewriter from '@/components/Typewriter'
 import Reveal from '@/components/Reveal'
 import Image from '@/components/Image'
 import Icon from '@/components/Icon'
-import {BiLinkExternal} from 'react-icons/bi'
+import { BiLinkExternal } from 'react-icons/bi'
 
 const History = ({ title, list }) => (
   <>
@@ -19,14 +19,15 @@ const History = ({ title, list }) => (
         <React.Fragment key={`item-${i}`}>
           <div className="card-container flex flex-col " key={`item-${i}`}>
             <div className="card-line-1  inline-flex items-center justify-between">
-              <div className="card-logo-container flex gap-2 justify-start items-center ">
+              <div className="card-logo-container flex items-center justify-start gap-2 ">
                 <a href={item.linkURL} target="_blank">
                   <img src={item.imgURL} alt={item.imgAlt} className="card-logo m-0 h-7" />
                 </a>
                 <a href={item.linkURL} target="_blank">
-                <span className="about-ext-links text-omega-400"><BiLinkExternal/></span>
+                  <span className="about-ext-links text-omega-400">
+                    <BiLinkExternal />
+                  </span>
                 </a>
-                
               </div>
               <div className="card-date-container">
                 <small className="ml-auto shrink-0 bg-omega-200 py-1 px-2 text-omega-700 opacity-90">
@@ -112,7 +113,7 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
         </div>
         <div className="w-full ">
           {skills_header && (
-            <div className="p-4 md:p-12 bg-gradient-omega-900">
+            <div className="bg-gradient-omega-900 p-4 md:p-12">
               <h3 className="mb-2">{skills_header.title}</h3>
               {skills_header.list && (
                 <h3 className="inline">

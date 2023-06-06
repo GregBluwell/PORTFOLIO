@@ -37,7 +37,7 @@ Code, Aventure et Maté.
 
 ---cta
 ---
-## Vous avez un projet ?
+## Vous souhaitez travaillers sur un projet ?
 
 Discutons-en !
 
