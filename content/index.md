@@ -47,9 +47,10 @@ if(travailler_ensemble) navigate('/contact')
 
 ---cta
 ---
-<Button href="https://gregbluwell.dev" target="_blank" rel="noopener noreferrer">
+<Button href="/contact" size="sm">
   Télécharger CV
 </Button>
+
 
 [Me Contacter](/contact)
 
