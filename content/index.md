@@ -15,7 +15,7 @@ images:
     alt: my photo
 ---
 
-# <Typewriter>Greg Fouetillou</Typewriter>
+# <Typewriter>GREG FOUETILLOU</Typewriter>
 
 # *Développeur Web Front-End* 
 
@@ -47,8 +47,7 @@ if(travailler_ensemble) navigate('/contact')
 
 ---cta
 ---
-<Button href="/public/cv.pdf"
- download target="_blank" size="sm">
+<Button href="https://gregbluwell.dev" target="_blank" rel="noopener noreferrer">
   Télécharger CV
 </Button>
 

@@ -18,7 +18,7 @@ seo:
 
 Vous souhaitez me joindre ?  
 Besoin d'un renseignement ?  
-<strong className="text-green-500">Utlisez le formulaire, ou un des liens ci-dessous, je vous répondrai au plus vite.</strong>
+<strong className="text-gradient-500">Utlisez le formulaire, ou un des liens ci-dessous, je vous répondrai au plus vite.</strong>
 
 <Sep size="12" />
 
