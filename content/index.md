@@ -9,9 +9,9 @@ seo:
 
 ---main
 images:
-  - src: /hero-2.png
+  - src: /hero-1.png
     alt: my photo
-  - src: /hero-mobile.jpg
+  - src: /hero-mobile-greg.png
     alt: my photo
 ---
 

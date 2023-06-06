@@ -9,7 +9,7 @@ seo:
 ---personal_info
 name: GREG FOUETILLOU 
 images:
-  - src: /about.jpg
+  - src: /about-greg.jpg
     alt: my image
 ---
 ##### <span>01.</span> A Propos

@@ -105,7 +105,7 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
             <div className="absolute top-0 left-0 z-20 h-full w-full bg-gradient-to-b from-transparent via-transparent to-black/90" />
           </div>
           <div className="z-10  p-6 text-center">
-            <h3 className="inline"> {personal_info.name}</h3>
+            <h3 className="inline text-omega"> {personal_info.name}</h3>
           </div>
           <div className="z-10 p-6 text-center md:p-8">
             <ContentRenderer source={cta} />

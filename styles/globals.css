@@ -95,6 +95,15 @@
   cursor: pointer;
 }
 
+
+
+#__next > div > div.relative.w-full.max-w-screen-xl > main > div > div > div.items-center.text-center.md\:flex.md\:text-left > div.inline-block.shrink-0.md\:order-2.md\:-ml-40 > div.md\:hidden > div  {
+  /* border: solid 1px red; */
+  width: 14rem;
+  height: 14rem;
+  aspect-ratio: 1/1;
+}
+
 /*Pictos*/
 /* MDA */
 #__next > div > div.relative.w-full.max-w-screen-xl > main > div > div > div.prose.flex-wrap.justify-between.bg-white.p-6.md\:flex > div:nth-child(1) > div.mt-6.flex.flex-col.md\:mt-12 > div:nth-child(5) > div.card-line-1.inline-flex.items-center.justify-between > div.card-logo-container.flex.gap-2.justify-start.items-center > a:nth-child(1) > img {
