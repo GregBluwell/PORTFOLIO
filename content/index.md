@@ -47,7 +47,7 @@ if(travailler_ensemble) navigate('/contact')
 
 ---cta
 ---
-<Button href="/contact" size="sm">
+<Button href="./public/cv.pdf" download size="sm">
   Télécharger CV
 </Button>
 
