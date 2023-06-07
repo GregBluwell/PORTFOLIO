@@ -39,7 +39,7 @@ Code, Aventure et Maté.
 ---
 ## Vous souhaitez travailler sur un projet ?
 
-Discutons-en !
+Parlons-en ensemble !
 
 <Button href="/contact">
   Me Contacter
