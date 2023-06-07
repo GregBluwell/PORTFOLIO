@@ -21,6 +21,7 @@ const ProjectCardHorizontal = ({
     // href={slug.join('/')}
     href={deployLink}
     target="_blank"
+    rel="noopener noreferrer"
     aria-label={title}
     className={classNames(
       'group grid items-center transition-all duration-200 md:grid-cols-2 md:gap-10',
@@ -31,6 +32,7 @@ const ProjectCardHorizontal = ({
       <Link
         // href={slug.join('/')}
         href={deployLink}
+        rel="noopener noreferrer"
         target="_blank"
         aria-label={title}
         className="not-prose relative block h-80 w-full p-4"
@@ -102,8 +104,8 @@ const ProjectCardHorizontal = ({
             <a
               key={githubUrl}
               href={githubUrl}
+              rel="noopener noreferrer"
               target="_blank"
-              rel="noreferrer"
               className="basis-1/2 py-1 hover:text-accent "
             >
               <FaGithub

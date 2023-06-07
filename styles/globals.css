@@ -70,7 +70,7 @@
 .animate-typewriter {
   padding: 0.25rem;
   /* border: solid 1px white; */
-
+  
 }
 
 /*CTA-SECTION*/
@@ -82,18 +82,59 @@
   /* @apply mt-6; */
 }
 
- 
-
 
 /* ABOUT  */
 .card-logo {
   filter:grayscale(100%);
+  margin-right: 0.5rem;
 }
 
 .card-logo:hover {
   filter:grayscale(0%);
   cursor: pointer;
 }
+
+#card-logo-container {
+  /* background-color: lightblue; */
+  height: 3rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+/*HPLG x BZN*/
+#hplg, #bzn {
+  height: 1.9rem;
+  width: auto;
+}
+
+
+
+/*SQUARED LOGO*/
+#mda, #ocr, #rnr {
+/* border: solid 1px red; */
+height: 2.1rem;
+width: auto;
+aspect-ratio: 1/1;
+}
+
+#mda {
+  height: 2.6rem; 
+  width: auto;
+} 
+
+/*SCRIMBA LOGO*/
+#smb {
+   height: 1.85rem;
+   width: auto;
+}
+
+/*RENNER*/
+#rnr {
+  height: 2.2rem;
+  width: auto;
+}
+
 
 
 
@@ -106,7 +147,7 @@
 
 /*Pictos*/
 /* MDA */
-#__next > div > div.relative.w-full.max-w-screen-xl > main > div > div > div.prose.flex-wrap.justify-between.bg-white.p-6.md\:flex > div:nth-child(1) > div.mt-6.flex.flex-col.md\:mt-12 > div:nth-child(5) > div.card-line-1.inline-flex.items-center.justify-between > div.card-logo-container.flex.gap-2.justify-start.items-center > a:nth-child(1) > img {
+/* #__next > div > div.relative.w-full.max-w-screen-xl > main > div > div > div.prose.flex-wrap.justify-between.bg-white.p-6.md\:flex > div:nth-child(1) > div.mt-6.flex.flex-col.md\:mt-12 > div:nth-child(5) > div.card-line-1.inline-flex.items-center.justify-between > div.card-logo-container.flex.gap-2.justify-start.items-center > a:nth-child(1) > img {
   width: 3.25rem;
   height: 3.25rem;
   aspect-ratio: 1/1;
@@ -121,7 +162,14 @@
   border: solide    1px    black; 
   width: 2.25rem;
   height: 2.25rem;
-}
+} */
+
+
+
+
+
+
+
 
 
 /* PORTFOLIO */

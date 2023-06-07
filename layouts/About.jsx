@@ -6,6 +6,7 @@ import Reveal from '@/components/Reveal'
 import Image from '@/components/Image'
 import Icon from '@/components/Icon'
 import { BiLinkExternal } from 'react-icons/bi'
+import Link from 'next/link'
 
 const History = ({ title, list }) => (
   <>
@@ -19,15 +20,16 @@ const History = ({ title, list }) => (
         <React.Fragment key={`item-${i}`}>
           <div className="card-container flex flex-col " key={`item-${i}`}>
             <div className="card-line-1  inline-flex items-center justify-between">
-              <div className="card-logo-container flex items-center justify-start gap-2 ">
-                <a href={item.linkURL} target="_blank">
-                  <img src={item.imgURL} alt={item.imgAlt} className="card-logo m-0 h-7" />
-                </a>
-                <a href={item.linkURL} target="_blank">
+              <div id="card-logo-container" className="">
+                <Link href={item.linkURL} target="_blank" rel="noopener noreferrer">
+                  <Image src={item.imgURL} width="200" height="50" alt={item.imgAlt} id={item.id} className="card-logo" />
+                </Link>
+
+                <Link href={item.linkURL} rel="noreferrer" target="_blank">
                   <span className="about-ext-links text-omega-400">
                     <BiLinkExternal />
                   </span>
-                </a>
+                </Link>
               </div>
               <div className="card-date-container">
                 <small className="ml-auto shrink-0 bg-omega-200 py-1 px-2 text-omega-700 opacity-90">

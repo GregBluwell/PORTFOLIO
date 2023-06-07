@@ -161,19 +161,22 @@ list:
   - name: Hypelago
     description: Fondateur / Développeur Web
     date: 2019-2022
-    imgURL: ./img/logo-hypelago-2.png
+    imgURL: /img/logo-hypelago-2.png
     linkURL: https://hypelago.com
+    id: hplg
   - name: Jump (Groupe Bizness)
     description: Développeur Front-End
     date: 2016-2019
-    imgURL: ./img/logo-bizness-2.png
+    imgURL: /img/logo-bizness-2.png
     linkURL: https://groupe-bizness.com
+    id: bzn
 
   - name: Artiste Indépendant
     description: Musicien / Enseignant
     date: 2007-2014
-    imgURL: ./img/logo-mda-1.png
+    imgURL: /img/logo-mda-1.png
     linkURL: https://www.lamaisondesartistes.fr/site/
+    id: mda
 
 ---
 
@@ -185,16 +188,19 @@ list:
   - name: Front-End React Engineer Paths
     description: Scrimba
     date: 2022-2023
-    imgURL: ./img/picto-scrimba-1.png
+    imgURL: /img/picto-scrimba-1.png
     linkURL: https://scrimba.com/learn/frontend
+    id: smb
   - name: Parcours Développeur Web
     description: OpenClassrooms
     date: 2015-2016
-    imgURL: ./img/picto-oc-1.png
+    imgURL: /img/picto-oc-1.png
     linkURL: https://openclassrooms.com/fr/paths/717-developpeur-web
+    id: ocr
   - name: Cambridge English Certificate (C2)
     description: Rennert International (New York)
     date: 2014-2015
-    imgURL: ./img/picto-rennert-2.png
+    imgURL: /img/picto-rennert-2.png
     linkURL: https://www.rennert.com/
+    id: rnr
 ---
