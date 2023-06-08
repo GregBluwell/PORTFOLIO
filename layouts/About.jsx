@@ -64,7 +64,7 @@ const Skill = ({ title, icon, level }) => (
           <span
             key={`${title}${k}-f`}
             className={classNames(
-              'inline-block w-3 h-3',
+              'inline-block w-3 h-3 lg:w-2.5 lg:h-2.5 ',
               k + 1 <= level ? 'bg-gradient-to-tr from-accent-700 to-accent' : 'bg-omega-700'
             )}
           />
@@ -74,11 +74,11 @@ const Skill = ({ title, icon, level }) => (
 )
 
 const SkillSet = ({ title, list }) => (
-  <div className=" bg-gradient-omega-900 p-6 md:px-12 md:py-8">
+  <div className=" bg-gradient-omega-900 p-6 md:px-8 md:py-8">
     <p className="col-span-3 mt-0 mb-6 self-center border-l-2 border-alpha pl-3 text-white">
       {title}
     </p>
-    <div className="grid grid-cols-fluid gap-y-3 gap-x-8 [--tw-fluid-col-min:12rem]">
+    <div className=" grid md:grid-cols-fluid gap-y-3 gap-x-8 [--tw-fluid-col-min:12rem]">
       {list?.map((props, j) => (
         <Reveal key={j} animation="fade-in" delay={j * 200}>
           <Skill {...props} />
