@@ -52,12 +52,12 @@ const History = ({ title, list }) => (
 )
 
 const Skill = ({ title, icon, level }) => (
-  <div className="flex items-center">
+  <div className="flex items-center ">
     {icon && (
       <Icon width={28} height={28} {...icon} className="mr-3 h-7 w-7 fill-current text-omega-500" />
     )}
     <small className="font-bold">{title}</small>
-    <div className="ml-auto space-x-px">
+    <div className="ml-auto space-x-px ">
       {Array(5)
         .fill(null)
         .map((_, k) => (
@@ -74,11 +74,11 @@ const Skill = ({ title, icon, level }) => (
 )
 
 const SkillSet = ({ title, list }) => (
-  <div className="b bg-gradient-omega-900 p-6 md:px-12 md:py-8">
+  <div className=" bg-gradient-omega-900 p-6 md:px-12 md:py-8">
     <p className="col-span-3 mt-0 mb-6 self-center border-l-2 border-alpha pl-3 text-white">
       {title}
     </p>
-    <div className=" grid grid-cols-fluid gap-y-3 gap-x-8 [--tw-fluid-col-min:12rem]">
+    <div className="grid grid-cols-fluid gap-y-3 gap-x-8 [--tw-fluid-col-min:12rem]">
       {list?.map((props, j) => (
         <Reveal key={j} animation="fade-in" delay={j * 200}>
           <Skill {...props} />
