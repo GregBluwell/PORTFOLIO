@@ -5,7 +5,6 @@ import Image from '@/components/Image'
 import Sep from '@/components/Sep'
 import Reveal from '@/components/Reveal'
 // import Companies from '@/components/Companies'
-import { IoLogoReact } from 'react-icons/io5'
 
 
 const HeroPhoto = ({ main }) => (
@@ -42,7 +41,7 @@ const HeroAbout = ({ main }) => (
   <Reveal
     animation="fade-in slide-in-right"
     className={classNames(
-      'prose prose-invert prose-headings:my-4 first-of-type:prose-headings:mt-0 prose-p:hidden',
+      ' prose prose-invert prose-headings:my-4 first-of-type:prose-headings:mt-0 prose-p:hidden',
       'prose-headings:my-6 prose-pre:max-w-[100vw] md:prose-p:block md:prose-pre:max-w-lg'
     )}
   >

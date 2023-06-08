@@ -66,12 +66,22 @@
   width: 30px !important;
 }
 
-/* ACCUEIL */
+/* HOME */
 .animate-typewriter {
   padding: 0.25rem;
   /* border: solid 1px white; */
   
 }
+@media screen and (max-width: 768px) {
+  #__next > div > div.relative.w-full.max-w-screen-xl > main > div > div > div.items-center.text-center.md\:flex.md\:text-left > div.z-10.mt-6.basis-full.md\:m-0 > div.md\:transition-all.md\:duration-1000.md\:mr-52.prose.prose-invert.prose-headings\:my-4.first-of-type\:prose-headings\:mt-0.prose-p\:hidden.md\:prose-headings\:my-6.md\:prose-p\:block > p {
+    display: block !important;
+    font-size: 0.85rem;
+    font-style: italic;
+  }
+
+}
+  
+
 
 /*CTA-SECTION*/
 

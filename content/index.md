@@ -19,7 +19,7 @@ images:
 
 # *Développeur Web Front-End* 
 
-Les Interfaces Utilisateurs c'est comme les blagues...  
+Les Interfaces Utilisateurs c'est comme les blagues.  
 Si on est obligé de les expliquer, c'est qu'elles ne sont pas trés bonnes.
 
 ```js {2-4} showLineNumbers
