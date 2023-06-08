@@ -90,7 +90,7 @@ list:
     level: 3
     icon:
       src: /icons/next.svg
-  - title: Redux Toolkit
+  - title: Redux
     level: 3
     icon:
       src: /icons/redux.svg

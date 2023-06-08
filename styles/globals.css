@@ -84,6 +84,10 @@
 
 
 /* ABOUT  */
+
+#__next > div > div.relative.w-full.max-w-screen-xl > main > div > div > div.prose.prose-invert.md\:flex > div.w-full > div.md\:transition-all.md\:duration-1000.prose.p-6.dark\:prose-invert.md\:p-12 {
+  @apply bg-gradient-omega-900;
+}
 .card-logo {
   filter:grayscale(100%);
   margin-right: 0.5rem;
