@@ -6,7 +6,7 @@ const Link = ({ href, children, ...props }) => {
   // && (href.startsWith('/') || href.startsWith('#'))
 
   return isInternalLink ? (
-    <NextLink href={href} {...props}>
+    <NextLink href={href}  {...props}>
       {children}
     </NextLink>
   ) : (
