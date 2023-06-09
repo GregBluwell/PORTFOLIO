@@ -79,7 +79,7 @@ const Menu = () => {
         )}
       >
         {menu && (
-          <div className="grid w-full grid-cols-4 bg-gradient-to-b from-transparent to-omega-800 md:block">
+          <div className="fixed grid w-full grid-cols-4 bg-omega-800 from-transparent to-omega-800 md:block border-t border-t-alpha md:border-t-black">
             {menu &&
               menu.map((item) => <MenuItem {...item} key={`${item.slug}`} onClick={closeMenu} />)}
             {/* <div
