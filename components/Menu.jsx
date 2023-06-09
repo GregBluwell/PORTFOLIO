@@ -82,9 +82,9 @@ const Menu = () => {
           <div className="grid w-full grid-cols-4 bg-gradient-to-b from-transparent to-omega-800 md:block">
             {menu &&
               menu.map((item) => <MenuItem {...item} key={`${item.slug}`} onClick={closeMenu} />)}
-            <div
+            {/* <div
               className={classNames(
-                'row-start-1 flex h-16 items-center md:hidden',
+                'border border-white row-start-1 flex h-16 items-center md:hidden',
                 isOpen ? 'col-span-4 col-start-1' : 'bg-gradient-omega-900 col-start-4'
               )}
               onClick={toggleMenu}
@@ -96,17 +96,17 @@ const Menu = () => {
                   <BiDotsHorizontalRounded className="animate-grow-in" />
                 )}
               </span>
-            </div>
+            </div> */}
           </div>
         )}
 
-        {social && (
-          <div className="flex w-full flex-wrap bg-accent md:block md:bg-omega-800">
+        {/* {social && (
+          <div className="border border-white flex w-full flex-wrap bg-accent md:block md:bg-omega-800">
             {social.map((item, i) => (
               <SocialLink key={`${i}-social`} {...item} />
             ))}
           </div>
-        )}
+        )} */}
       </div>
     </>
   )

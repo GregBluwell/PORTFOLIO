@@ -46,7 +46,6 @@ const HeroAbout = ({ main }) => (
     )}
   >
     <ContentRenderer source={main} />
-  
   </Reveal>
 )
 
@@ -66,7 +65,7 @@ const HeroAbout = ({ main }) => (
 // )
 
 //, achievements = [], companies
-const Layout = ({ main = {}, cta = {} }) => (
+const Layout = ({ main = {} }) => (
   <div className="mx-auto my-auto py-4 md:p-10 lg:p-20">
     <div className="absolute right-0 top-0 box-content hidden h-full w-1/4 bg-gradient-to-br from-alpha-100 via-alpha to-beta pl-5 md:block" />
     <div className="items-end text-center md:flex md:text-left">
@@ -86,11 +85,9 @@ const Layout = ({ main = {}, cta = {} }) => (
         )}
       >
         {/* <Achievements achievements={achievements} /> */}
-       
       </div>
-      <div className="home-footer_container mt-6 hidden w-3/4 border border-white px-2 pr-12 md:block">
-        {/* <Companies {...companies} /> */}
-      </div>
+      {/* <div className="home-footer_container mt-6 hidden w-3/4 px-2 pr-12 md:block">
+      </div> */}
     </div>
   </div>
 )

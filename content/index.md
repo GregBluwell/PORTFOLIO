@@ -41,20 +41,30 @@ if(travailler_ensemble) navigate('/contact')
 ---
 
 
-
-
-
-
 ---cta
+
 ---
+
 <Button href="http://gregblj.cluster029.hosting.ovh.net/docs/Greg_Fouetillou-CV_2023.pdf" target="_blank" size="sm">
   Télécharger CV
 </Button>
 
 
 [Me Contacter](/contact)
-
-
+ 
+ <div className="sm-link-container flex justify-center md:justify-start mt-4 p-1 ">
+ <a href="https://www.linkedin.com/in/greg-fouetillou-a2047a266/" target="_blank" className="mr-3">
+ <Icon
+  src='/icons/logo-linkedin.svg'
+  className='inline  align-middle w-7 h-7 fill-white text-omega-500 hover:fill-accent'
+/></a>
+<a href="https://github.com/GregBluwell" target="_blank">
+<Icon
+  src='/icons/github-1.svg'
+  className='inline align-middle w-7 h-7 fill-white text-omega-500 hover:fill-accent'
+/>
+</a>
+</div>
 
 ---companies
 ---
