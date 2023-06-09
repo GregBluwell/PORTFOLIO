@@ -53,15 +53,15 @@ if(travailler_ensemble) navigate('/contact')
 [Me Contacter](/contact)
  
  <div className="sm-link-container flex justify-center md:justify-start mt-4 p-1 ">
- <a href="https://www.linkedin.com/in/greg-fouetillou-a2047a266/" target="_blank" className="mr-3">
+ <a href="https://www.linkedin.com/in/greg-fouetillou-a2047a266/" target="_blank" className="mr-4">
  <Icon
   src='/icons/logo-linkedin.svg'
-  className='inline  align-middle w-7 h-7 fill-white text-omega-500 hover:fill-accent'
+  className='inline  align-middle w-8 h-8 md:w-7 md:h-7 fill-white text-omega-500 hover:fill-accent'
 /></a>
 <a href="https://github.com/GregBluwell" target="_blank">
 <Icon
   src='/icons/github-1.svg'
-  className='inline align-middle w-7 h-7 fill-white text-omega-500 hover:fill-accent'
+  className='inline align-middle w-8 h-8 md:w-7 md:h-7 fill-white text-omega-500 hover:fill-accent'
 />
 </a>
 </div>
