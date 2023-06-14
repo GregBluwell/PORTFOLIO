@@ -45,7 +45,7 @@ if(travailler_ensemble) navigate('/contact')
 
 ---
 
-<Button href="http://gregblj.cluster029.hosting.ovh.net/docs/Greg_Fouetillou-CV_2023.pdf" target="_blank" size="sm">
+<Button href="http://gregblj.cluster029.hosting.ovh.net/docs/Greg-Fouetillou-CV-2023.pdf" target="_blank" size="sm">
   Télécharger CV
 </Button>
 

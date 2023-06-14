@@ -13,7 +13,7 @@ images:
     alt: my image
 ---
 ##### <span>01.</span> A Propos
-Développeur Front-End à l'expérience signicative et à l'expertise grandissante, j'aime m'investir dans les projets à taille humaine qui me permettent de contribuer à la réalisation de solutions innovantes. Naturellement animé par l'esprit d'équipe et profondément passionné par mon métier, je cultive un fort intérêt pour ses évolutions et les enjeux qui y sont liés.
+Développeur Front-End à l'expérience signicative, j'aime m'investir dans les projets à taille humaine qui me permettent de contribuer à la réalisation de solutions innovantes. Naturellement animé par l'esprit d'équipe et profondément passionné par mon métier, je cultive un fort intérêt pour ses évolutions et les enjeux qui y sont liés.
 
 ##### <span>02.</span> Savoir-Faire
 Développement Front-End de Sites et d'Applications Web • Réalisation de MOOC/Mini-Jeux (JavaScript) • Responsive Web Design • UX/UI Design • Intégration Web 

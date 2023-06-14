@@ -57,7 +57,7 @@ const Skill = ({ title, icon, level }) => (
       <Icon width={28} height={28} {...icon} className="mr-3 h-7 w-7 fill-current text-omega-500" />
     )}
     <small className="font-bold">{title}</small>
-    <div className="ml-auto space-x-px ">
+    <div className=" border border-white hidden ml-auto space-x-px ">
       {Array(5)
         .fill(null)
         .map((_, k) => (
