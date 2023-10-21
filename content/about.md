@@ -13,10 +13,10 @@ images:
     alt: my image
 ---
 ##### <span>01.</span> A Propos
-Développeur Front-End à l'expérience signicative, j'aime m'investir dans les projets à taille humaine qui me permettent de contribuer à la réalisation de solutions innovantes. Naturellement animé par l'esprit d'équipe et profondément passionné par mon métier, je cultive un fort intérêt pour ses évolutions et les enjeux qui y sont liés.
+Développeur Front-End à l'expérience significative,je souhaite m'investir dans un projet à taille humaine qui me permettra de contribuer à la réalisation de solutions innovantes. Naturellement animé par l'esprit d'équipe et profondément passionné par mon métier, je cultive un fort intérêt pour ses évolutions et les enjeux qui y sont liés.
 
 ##### <span>02.</span> Savoir-Faire
-Développement Front-End de Sites et d'Applications Web • Réalisation de MOOC/Mini-Jeux (JavaScript) • Responsive Web Design • UX/UI Design • Intégration Web 
+Développement Front-end de Sites et d'Applications Web • Tests Unitaires • Intégration Web • UX/UI Design • Responsive Web Design • Réalisation de MOOC/Mini-Jeux • Agile • Scrum  
 
 ##### <span>03.</span> Centres d'Intérêt
 100% "Nerd" et 100% "Sportif", je cultive cet équilibre indispensable depuis l'époque de mon premier *Texas Instruments TI-99/4A*, et de mon premier *Bicross (BMX ♥)* . 
@@ -61,7 +61,7 @@ list:
     level: 5
     icon:
       src: /icons/html5.svg
-  - title: CSS3/SASS
+  - title: CSS3/SCSS (SASS)
     level: 5
     icon:
       src: /icons/css3.svg
@@ -82,30 +82,24 @@ list:
 title: Front-End & UI/UX Design
 list:
  
-  - title: REACT
+  - title: VUEJS 3
     level: 4
     icon:
-      src: /icons/react.svg
-  - title: NEXT.JS
+      src: /icons/vueJS.svg
+  - title: Nuxt
     level: 3
     icon:
-      src: /icons/next.svg
-  - title: Redux
-    level: 3
+      src: /icons/nuxt.svg
+ 
+  - title: Vuetify
+    level: 4
     icon:
-      src: /icons/redux.svg
+      src: /icons/vuetify.svg
+  
   - title: TailwindCSS
-    level: 4
-    icon:
-      src: /icons/tailwind.svg
-  - title: Material UI
-    level: 3
-    icon:
-      src: /icons/material.svg
-  - title: Framer Motion
     level: 2
     icon:
-      src: /icons/framermotion.svg
+      src: /icons/tailwind.svg
 ---
 
 ---skills[2]
@@ -115,10 +109,10 @@ list:
     level: 3
     icon:
       src: /icons/firebase.svg
-  - title: Sanity
+  - title: Supabase
     level: 4
     icon:
-      src: /icons/sanity1.svg
+      src: /icons/supabase.svg
   - title: Vercel
     level: 3
     icon:
@@ -133,14 +127,14 @@ list:
 ---skills[3]
 title: Autre
 list:
-  - title: Figma
+  - title: Vite
     level: 4
     icon:
-      src: /icons/figma.svg
-  - title: WordPress
+      src: /icons/vite.svg
+  - title: Vitest
     level: 4
     icon:
-      src: /icons/wordpress.svg
+      src: /icons/vitest.svg
   - title: NPM/Yarn
     level: 4
     icon:
@@ -185,11 +179,11 @@ list:
 ---history[1]
 title: Formation
 list:
-  - name: Front-End React Engineer Paths
-    description: Scrimba
-    date: 2022-2023
-    imgURL: /img/picto-scrimba-1.png
-    linkURL: https://scrimba.com/learn/frontend
+  - name: VueJs 3 Engineer Path 
+    description: Vue Mastery
+    date: 2022
+    imgURL: /img/vm.png
+    linkURL: https://www.vuemastery.com/
     id: smb
   - name: Parcours Développeur Web
     description: OpenClassrooms

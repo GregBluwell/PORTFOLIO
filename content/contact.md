@@ -16,14 +16,14 @@ seo:
   ### _Parlons de nos projets_
 </PageTitle>
 
-Vous souhaitez me joindre ?  
-Besoin d'un renseignement ?  
+Vous souhaitez me joindre ? 
+
 <strong className="text-gradient-500">Utlisez le formulaire, ou un des liens ci-dessous, je vous répondrai au plus vite.</strong>
 
 <Sep size="12" />
 
 <small>
-  <Icon src="/icons/cell-phone.svg" className="icon-w-30 inline mr-1 align-middle fill-current text-omega-500" />[+(33) 6 52 88 07 85](tel:+33652880785)
+ 
 
   <Icon src="/icons/mail.svg" className="mr-2 inline align-middle fill-current text-omega-500" />contact@gregbluwell.dev
 
