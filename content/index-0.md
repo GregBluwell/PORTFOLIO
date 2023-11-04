@@ -28,7 +28,7 @@ sponge.
 
 
 ---achievements
-- number: 6+
+- number: 7
   text: Years of experience
 - number: 60+
   text: Projects Completed
