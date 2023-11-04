@@ -32,7 +32,7 @@ if(travailler_ensemble) navigate('/contact')
 ```
 
 ---achievements
-- number: 6+
+- number: 7
   text: Années d'expérience
 - number: 40+
   text: Projets en entreprise
